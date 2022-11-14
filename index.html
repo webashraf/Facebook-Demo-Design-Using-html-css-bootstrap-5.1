@@ -1,1021 +1,303 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <title>Facebook</title>
-    <link
-      rel="shortcut icon"
-      href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico?_nc_eui2=AeFi8YPnZeRGDSQr1Rv4CKMXaBWfmC2eGbdoFZ-YLZ4Zt7UWrWLu0w5A2lRov31lpSb615SZitT4O_RguGyVkjTd"
-      type="image/x-icon"
-    />
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS v5.0.2 -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>MaguwoHost</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-dark tamim-nav sticky-top"
-      style="height: 67px"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand d-flex" href="#">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
-            fill="currentColor"
-            class="bi bi-facebook text-white me-3 mt-2"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-            ></path>
-          </svg>
-          <div class="input-group mb-3 search-top-tm">
-            <input
-              type="search"
-              class="form-control rounded-start"
-              placeholder="Recipient's username"
-              aria-label="Recipient's username"
-              aria-describedby="button-addon2"
-            />
-            <button
-              class="btn btn-outline-secondary"
-              type="button"
-              id="button-addon2"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-search text-white"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                ></path>
-              </svg>
-            </button>
-          </div>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-house tp-icons"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
-                  /></svg
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-person-plus-fill tp-icons"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
-                  ></path>
-                  <path
-                    fill-rule="evenodd"
-                    d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"
-                  ></path></svg
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-flag tp-icons"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z"
-                  /></svg
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-shop-window tp-icons"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"
-                  /></svg
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-people-fill tp-icons"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
-                  ></path>
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"
-                  ></path>
-                  <path
-                    d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"
-                  ></path></svg
-              ></a>
-            </li>
-          </ul>
-        </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active tpt2" aria-current="page" href="#"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-list tp-icons"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                  ></path></svg
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active tpt2" href="#"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-messenger tp-icons"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"
-                  ></path></svg
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active tpt2" href="#"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-bell tp-icons"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"
-                  ></path></svg
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active tpt2" href="#"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-caret-down tp-icons"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                  ></path></svg
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="header" id="top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="https://i.ibb.co/4dq0zm4/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+      
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
 
-    <section class="bg-dark">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xl-3 ps-5">
-            <div class="left-sidebarr">
-              <ul class="list-group">
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-person-circle text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path
-                          fill-rule="evenodd"
-                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                        ></path>
-                      </svg>
+      
+                 <div class="header-btn ml-5">
+                    <div class="right-header">
+                        <p>Do you need help ? Just Email, Live chat or Call us</p>
+                        <div class="btn-1"><a class="btn btn-warning btn-sm border-right" href="#">Live Chat</a></div>
+                        <a class="btn btn-outline-warning btn-sm border-0" href="#">6284-6534</a>
                     </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-bookmark-fill text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-heart text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-people-fill text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
-                        ></path>
-                        <path
-                          fill-rule="evenodd"
-                          d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"
-                        ></path>
-                        <path
-                          d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-flag-fill text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-person-circle text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path
-                          fill-rule="evenodd"
-                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-person-circle text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path
-                          fill-rule="evenodd"
-                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-person-circle text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path
-                          fill-rule="evenodd"
-                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-              </ul>
+                 </div>
 
-              <h3 class="text-white mt-4 mb-1">Your Shorcuts</h3>
-
-              <ul class="list-group">
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-person-circle text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path
-                          fill-rule="evenodd"
-                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-person-circle text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path
-                          fill-rule="evenodd"
-                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-person-circle text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path
-                          fill-rule="evenodd"
-                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-                <li class="list-group-item bg-dark text-white">
-                  <a href="#" class="d-flex text-decoration-none">
-                    <div class="icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-person-circle text-white"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                        <path
-                          fill-rule="evenodd"
-                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                        ></path>
-                      </svg>
-                    </div>
-                    <p class="text-white">
-                      Lorem ipsum dolor sit amet adipisicing elit.
-                    </p>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-xl-6">
-            <div class="card mt-3">
-              <div class="card-body bg-dark text-white">
-                <h5 class="card-title">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="25"
-                    fill="currentColor"
-                    class="bi bi-person-circle"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                    <path
-                      fill-rule="evenodd"
-                      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                    ></path>
-                  </svg>
-                  Ali Ashraf
-                </h5>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                
               </div>
-              <img
-                src="https://i.ibb.co/xg53xgv/Pics-Art-03-06-12-46-55.jpg"
-                class="card-img-bottom img-fluid"
-                alt="..."
-              />
             </div>
-            <div class="card mt-3">
-              <div class="card-body bg-dark text-white">
-                <h5 class="card-title">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="25"
-                    fill="currentColor"
-                    class="bi bi-person-circle"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                    <path
-                      fill-rule="evenodd"
-                      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                    ></path>
-                  </svg>
-                  Ali Ashraf
-                </h5>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-              <img
-                src="https://i.ibb.co/sq51DrN/242299693-1470792646623407-3960740963775402416-n.jpg "
-                alt="..."
-              />
-            </div>
-            <div class="card mt-3">
-              <div class="card-body bg-dark text-white">
-                <h5 class="card-title">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="25"
-                    fill="currentColor"
-                    class="bi bi-person-circle"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                    <path
-                      fill-rule="evenodd"
-                      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                    ></path>
-                  </svg>
-                  Ali Ashraf
-                </h5>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-              <img
-                src="https://i.ibb.co/hc8Prft/aliashraf9921-150092878-1592361680947952-1717384397334081031-n.jpg"
-                alt="..."
-              />
-            </div>
-            <div class="card mt-3">
-              <div class="card-body bg-dark text-white">
-                <h5 class="card-title">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="25"
-                    fill="currentColor"
-                    class="bi bi-person-circle"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                    <path
-                      fill-rule="evenodd"
-                      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                    ></path>
-                  </svg>
-                  Ali Ashraf
-                </h5>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-              <img
-                src="https://i.ibb.co/HhgL7Z2/Whats-App-Image-2021-06-07-at-6-24-32-PM.jpg"
-                alt="..."
-              />
-            </div>
-          </div>
+          </nav>
+      
+    </div>
 
-          <div class="col-xl-3">
-            <div class="right-sideberr">
-              <h3 class="text-white">Sponsors</h3>
-              <div class="card mb-3 border-0" style="max-width: 540px">
-                <div class="row g-0 bg-dark">
-                  <div class="col-md-4">
-                    <img
-                      src="https://i.ibb.co/kqgkKPG/Pics-Art-04-01-01-18-26.jpg"
-                      class="img-fluid rounded-start mt-3"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body text-white">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        This is a wider card with supporting text below
-                      </p>
+
+    <div class="banner text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="h1 text-white mb-4 font-weight-bolder">Just a Proffesional Web Hosting Services</div>
+                    <div class="h3 text-white mb-3">modern - fast - reliable</div>
+                    <div class="banner-img mb-5"><img src="https://i.ibb.co/BKMTxG0/slider-icon.png" alt=""></div>
+                    <div class="form-banner">
+                        
+                        <div class="input-group">
+                            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" placeholder="Your Domain Name...">
+                            <button type="button" class="btn btn-outline-secondary">Action</button>
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                            <button class="btn btn-warning">Check Avaibility</button>
+                        </div>
+
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="card mb-3 border-0" style="max-width: 540px">
-                <div class="row g-0 bg-dark">
-                  <div class="col-md-4">
-                    <img
-                      src="https://i.ibb.co/gjnj4pp/mypic-3.jpg"
-                      class="img-fluid rounded-start mt-3"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body text-white">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        This is a wider card with supporting text below
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="right-list-sidebarr">
-                <h3 class="text-white mt-4 mb-1">Page</h3>
-                <ul class="list-group">
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                </ul>
-
-                <h3 class="text-white mt-4 mb-1">Your Shorcuts</h3>
-
-                <ul class="list-group">
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                  <li class="list-group-item bg-dark text-white">
-                    <a href="#" class="d-flex text-decoration-none">
-                      <div class="icon me-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-person-circle text-white"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                          <path
-                            fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                          ></path>
-                        </svg>
-                      </div>
-                      <p class="text-white">
-                        Lorem ipsum dolor sit amet adipisicing elit.
-                      </p>
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+
+    <div class="slider clearfix text-center">
+        <div class="slide-left float-left text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-1"></div>
+                    <div class="col-xl-10">
+                        <div class="left-slide-img mt-5">
+                            <img src="https://i.ibb.co/hFQzxtD/slider-buttom-icon.png" alt="">
+                        </div>
+                        <div class="h1 font-weight-bolder">#1 Webhost Services</div>
+                        <p class="mb-5 ">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                    </div>
+                    <a href="#">More</a>
+                    <div class="col-xl-1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="slide-right float-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2"></div>
+                    <div class="col-xl-8">
+                        <div class="display-1 font-weight-bolder">.com</div>
+                        <div class="h1 text-white font-weight-bolder">#1 Domain Services</div>
+                        <p class="mb-5 text-white">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+                        <a href="#">More</a>
+                    </div>
+                    <div class="col-xl-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="feature-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="h2 font-weight-bolder mb-3">Our Features</div>
+                    <div class="h4 mb-4">Our Best Features</div>
+                    <div class="row">
+
+                        <div class="col-xl-3">
+                            <div class="feature-item">
+                                <div class="feature-img mb-3">
+                                    <img class="rounded-circle" src="https://i.ibb.co/ZH4d85x/features-icon1.png" alt="">
+                                </div>
+                                <div class="border-div mb-3"></div>
+                                <div class="h3">Live Support</div>
+                                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. vel velit auctor aliquet. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3">
+                            <div class="feature-item">
+                                <div class="feature-img mb-3">
+                                    <img class="rounded-circle" src="https://i.ibb.co/v11cNfV/features-icon2.png" alt="">
+                                </div>
+                                <div class="border-div mb-3"></div>
+                                <div class="h3">Cloud Technology</div>
+                                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. vel velit auctor aliquet. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3">
+                            <div class="feature-item">
+                                <div class="feature-img mb-3">
+                                    <img class="rounded-circle" src="https://i.ibb.co/JHFkCkN/features-icon3.png" alt="">
+                                </div>
+                                <div class="border-div mb-3"></div>
+                                <div class="h3">Hi Tech Database</div>
+                                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. vel velit auctor aliquet. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3">
+                            <div class="feature-item">
+                                <div class="feature-img mb-3">
+                                    <img class="rounded-circle" src="https://i.ibb.co/VLSqSRq/features-icon4.png" alt="">
+                                </div>
+                                <div class="border-div mb-3"></div>
+                                <div class="h3">Live Monitoring</div>
+                                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. vel velit auctor aliquet. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
+    <section class="clint-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="clint-text">
+                    <div class="h1 font-weight-bolder">Our Clients</div>
+                        <p class="lorem text-black-50">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum.</p>
+                    </div>
+                </div>
+                <div class="col-xl-2"><img src="https://i.ibb.co/NYqB6Nf/client1.png" alt=""></div>
+                <div class="col-xl-2"><img src="https://i.ibb.co/K2z75JV/client2.png" alt=""></div>
+                <div class="col-xl-2"><img src="https://i.ibb.co/gJvYRhM/client3.png" alt=""></div>
+                <div class="col-xl-2"><img src="https://i.ibb.co/gJvYRhM/client3.png" alt=""></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section py-5 mb-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xl-4">                   
+                        <div class="testim-text ">                           
+                                <p class="lorem text-black-50 mb-4">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                                <div class="blockquote-footer">Anna</div>                          
+                            <img src="https://i.ibb.co/4FxZnQ7/client-photo.png" alt="">
+                        </div>
+                </div>
+                <div class="col-xl-4">                   
+                    <div class="testim-text ">                           
+                            <p class="lorem text-black-50 mb-4">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                            <div class="blockquote-footer">Anna</div>                          
+                        <img src="https://i.ibb.co/4FxZnQ7/client-photo.png" alt="">
+                    </div>
+            </div>
+            <div class="col-xl-4">                   
+                <div class="testim-text ">                           
+                        <p class="lorem text-black-50 mb-4">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                        <div class="blockquote-footer">Anna</div>                          
+                    <img src="https://i.ibb.co/4FxZnQ7/client-photo.png" alt="">
+                </div>
+        </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9">
+                    <div class="h1 font-weight-bolder">Do you want to view Plans & Pricing ?</div>
+                    <p class="lead text-white-50">Follow the button in the right section.</p>
+                </div>
+                <div class="col-xl-3">
+                    <a class="btn btn-warning btn-lg border-white rounded-0" href="#">Plans & Pricing</a>
+                </div>
+        </div>
+    </section>
+
+    <section class="footer-section py-5">
+        <div class="container">
+            </div>
+            <div class="row">
+                <div class="col-xl-9">
+                    <div class="location-banner">
+                        <div class="location">
+                            <span class="d-inline-block"><i class="fas fa-map-marker-alt"></i></span>
+                            <div class="l-text">
+                                <p class="text-white lead d-inline-block">Yogyakarta, Indonesia
+                                    55282 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="right-menu text-right">
+                        <div class="h5 text-white">Navigation</div>
+                        <div class="menu-1">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Domain</a></li>
+                                <li><a href="#">Hosting</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-2">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                            <a class="text-white" href="#top">Back to Top</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-xl-12">
+                    <div class="footer-bottom-img">
+                        <img class="img-fluid mb-1" src="https://i.ibb.co/BKMTxG0/slider-icon.png" alt="">
+                    </div>
+                    <p class="lead text-white bottom-p">&copy;Copy right 2020 by Ali Ashraf</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
   </body>
 </html>
