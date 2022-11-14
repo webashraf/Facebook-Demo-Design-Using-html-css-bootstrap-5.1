@@ -1,0 +1,42 @@
+.search-top-tm .form-control.rounded-start {
+	border-radius: 50px 0 0 50px !important;
+	background-color: #6c757d;
+	border: none !important;
+	height: 42px;
+}
+.search-top-tm #button-addon2 {
+	border-radius: 0px 50px 50px 0px;
+	background-color: #6c757d;
+}
+.input-group.mb-3.search-top-tm {
+	margin-top: 7px;
+}
+
+.tamim-nav ul li a{
+    margin-right: 20px
+}
+
+.tp-icons {
+	height: 25px;
+	width: 25px;
+	color: white;
+    display: inline !important;
+}
+.tpt2 {
+	background-color: rgba(255, 255, 255, .5);
+	border-radius: 50%;
+	height: 44px;
+	width: 44px;
+	line-height: 25px;
+	display: inline-block !important;
+	text-align: center !important;
+}
+
+/* Body css */
+.left-sidebarr, .right-sideberr {
+	overflow: scroll;
+	height: 100vh;
+	position: fixed;
+	width: 22%;
+}
+
